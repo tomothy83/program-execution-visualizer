@@ -1,0 +1,7 @@
+version: "3"
+services:
+  php-xdebug:
+    build: ./php-xdebug/Dockerfile
+    ports:
+      - 9000:9000
+      - 80:10081
