@@ -1,6 +1,9 @@
 {
-    "name": "php-xdebug",
-    "dockerComposeFile": ["../docker-compose.yml"],
-    "service": "php-xdebug",
-    "extensions": [],
-  }
+  "name": "php-xdebug",
+  "dockerComposeFile": [
+    "../docker-compose.yml"
+  ],
+  "service": "php-xdebug",
+  "extensions": [],
+  "workspaceFolder": "/",
+}
