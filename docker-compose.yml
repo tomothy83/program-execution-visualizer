@@ -5,6 +5,8 @@ services:
     command: /bin/sh -c "while sleep 1000; do :; done"
     volumes:
       - "./:/webapp"
+      - "~/.ssh:/root/.ssh"
+      - "~/.gitconfig:/root/.gitconfig"
   php-xdebug:
     build: ./php-xdebug
     ports:
